@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('/assets/css/405.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #557bb2;
+}
+
+body img {
+    padding: 40px;
+    width: 350px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2 {
+    color: rgb(238, 238, 238);
+}
+
+.caja {
+    background-color: #3a4c5c;
+    border-radius: 30px;
+}
+
+h3 {
+    color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.chart {
+    width: 600px;
+    height: 600px;
+    padding-top: 20px;
+}
+
+canvas {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+}
